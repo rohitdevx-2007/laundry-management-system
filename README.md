@@ -1,36 +1,107 @@
-# Laundry Management System
+<h1 align="center">🧺 Laundry Management System</h1>
 
-A modern, responsive Laundry Management System built with PHP and MySQL.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1200&color=00BFFF&center=true&vCenter=true&width=650&lines=Modern+Laundry+Management+Web+App;Built+with+PHP+%26+MySQL;Responsive+%7C+Simple+%7C+Efficient" alt="Typing SVG" />
+</p>
 
-## Features
-- **Dashboard**: Overview of orders and stats.
-- **Service Management**: Add/Edit/Delete laundry services and prices.
-- **Customer Management**: Manage customer details.
-- **Order Management**: Create orders, track status (Pending, Processing, Ready, Delivered).
-- **Billing**: Generate printable PDF bills/invoices.
-- **Reports**: Monthly order reports.
-- **Responsive UI**: Works on mobile, tablet, and desktop.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rohit-dev-2007&label=Views&style=for-the-badge" alt="Views" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+</p>
 
-## Setup Instructions
+<p align="center">
+  <a href="https://rohit-dev-2007.github.io/laundry-management-system/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Now-00C2FF?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
 
-1.  **Database Setup**:
-    - Create a new database named `laundry_db` in your MySQL server (e.g., phpMyAdmin).
-    - Import the `database.sql` file located in the root directory.
+---
 
-2.  **Configuration**:
-    - Open `config/db.php` (to be created) and update your database credentials if they differ from the defaults (user: `root`, pass: ``).
+## 📌 Project Overview
 
-3.  **Run**:
-    - Place the project folder in your local server directory (e.g., `htdocs` for XAMPP).
-    - Access the application via your browser (e.g., `http://localhost/laundry-system`).
+The **Laundry Management System** is a robust, web-based solution designed to automate the daily operations of a laundry business. From tracking incoming garments to generating professional invoices, this system ensures a seamless workflow for both staff and customers.
 
-4.  **Default Login**:
-    - **Username**: `admin`
-    - **Password**: `admin123`
+---
 
-## Technologies
-- PHP
-- MySQL
-- Bootstrap 5
-- jQuery
-- FontAwesome
+## ✨ Key Features
+
+- **📊 Dynamic Dashboard:** Real-time stats on pending orders, total revenue, and customer count.
+- **🧼 Service Catalog:** Manage different types of laundry (Wash, Iron, Dry Clean) with custom pricing.
+- **👥 CRM:** Maintain a database of customers and their order history.
+- **📦 Order Tracking:** Follow the lifecycle of an order: `Pending` → `Processing` → `Ready` → `Delivered`.
+- **🧾 Automated Billing:** Instant generation of printable PDF invoices.
+- **📱 Fully Responsive:** Works perfectly on mobile, tablets, and desktops thanks to Bootstrap 5.
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, Bootstrap 5, jQuery |
+| **Backend** | PHP|
+| **Database** | MySQL |
+| **Icons** | Font Awesome |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Database Configuration
+1. Open **phpMyAdmin**.
+2. Create a new database named `laundry_db`.
+3. Import the `database.sql` file provided in the repository.
+
+### 2. Configure Backend
+Edit `config/db.php` with your local server details:
+
+
+```
+<?php
+$host = "localhost";
+$user = "root";     
+$pass = "";         
+$dbname = "laundry_db";
+
+$conn = mysqli_connect($host, $user, $pass, $dbname);
+?>
+```
+### 3. Run Project
+1. Place the folder in htdocs (XAMPP) or www (WAMP).
+2. Access via: http://localhost/laundry-management-system
+
+### Part 4: Credentials, License & Developer
+The final section with login info and your profile links.
+
+## 🔐 Default Admin Credentials
+
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **Administrator** | `admin` | `admin123` |
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+## 👨‍💻 Developer Info
+
+**Rohit** *BCA Student*
+
+<p align="left">
+  <a href="mailto:vadherrohit239@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/rohit-dev-2007">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  💡 <i>Built with passion to simplify real-world laundry management.</i>
+</p>
