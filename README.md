@@ -9,12 +9,6 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
 
-<p align="center">
-  <a href="https://rohit-dev-2007.github.io/laundry-management-system/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Now-00C2FF?style=for-the-badge&logo=google-chrome&logoColor=white" />
-  </a>
-</p>
-
 ---
 
 ## 📌 Project Overview
@@ -105,3 +99,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <p align="center">
   💡 <i>Built with passion to simplify real-world laundry management.</i>
 </p>
+
